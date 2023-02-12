@@ -5,7 +5,7 @@ export default class App extends Component {
         list: ['1111','2222','333','353','5435','38763','3854','73','354354','3543','365','15454','365435','1321','654']
     }
     componentDidMount() {
-        new BetterScroll('wtt')
+        new BetterScroll('#wtt')
     }
     render() {
         return (
